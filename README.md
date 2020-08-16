@@ -26,3 +26,7 @@ He thought it'll be a good idea to convert this to Object Oriented Programming. 
 However, his trainer told him that what he did is not Object Oriented programming and asked Shivam to try again. 
 - Try to articulate problems with Shivam's OOP solution. (Write it somewhere and share it with your trainer)
 - Fork the project and fix the design related problem with Shivam's OOP solution. Share that with your trainer too.
+
+
+Inspite of the fact that there are advanatges of getter and setter methods ,they provide external access to implementation details.We need to change the accessor's return type everytime we change the accessed field's type. 
+Thus eliminated setters and getters and also binded the data (points(x,y)) and the behaviour(distance and direction) to the same class.
